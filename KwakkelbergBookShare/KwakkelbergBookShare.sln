@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KwakkelbergBookShare", "KwakkelbergBookShare\KwakkelbergBookShare.csproj", "{F4CCF489-4FA1-41D2-928C-D8FB22035288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KwakkelbergBookShare.Tests", "KwakkelbergBookShare.Tests\KwakkelbergBookShare.Tests.csproj", "{5CC52AF2-6C9A-48D4-8AE4-344D2639E1B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4CCF489-4FA1-41D2-928C-D8FB22035288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4CCF489-4FA1-41D2-928C-D8FB22035288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4CCF489-4FA1-41D2-928C-D8FB22035288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4CCF489-4FA1-41D2-928C-D8FB22035288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC52AF2-6C9A-48D4-8AE4-344D2639E1B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC52AF2-6C9A-48D4-8AE4-344D2639E1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC52AF2-6C9A-48D4-8AE4-344D2639E1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC52AF2-6C9A-48D4-8AE4-344D2639E1B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
