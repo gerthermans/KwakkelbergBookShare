@@ -22,8 +22,11 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Kwakkelberg boeken ruil", "Index", "Home")</li>
                     <li>@Html.ActionLink("Zoek Boek", "Index", "Search")</li>
-                    <li>@Html.ActionLink("Beheer", "Management", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    @if (ViewContext.HttpContext.User.IsInRole("Admin"))
+                    {
+                        <li>@Html.ActionLink("Beheer", "Index", "BookManagement")</li>
+                    }
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
