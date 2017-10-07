@@ -27,8 +27,7 @@ namespace KwakkelbergBookShare
                 roleManager.Create(role);
 
                 var user = new ApplicationUser();
-                user.UserName = "gerthermans747@gmail.com";
-                user.Email = "gerthermans747@gmail.com";
+                user.UserName = "administrator";
                 string userPWD = "Administrator747";
                 var chkUser = userManager.Create(user, userPWD);
                 if (chkUser.Succeeded)

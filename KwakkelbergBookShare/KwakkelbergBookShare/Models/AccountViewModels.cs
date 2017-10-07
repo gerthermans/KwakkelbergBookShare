@@ -49,6 +49,9 @@ namespace KwakkelbergBookShare.Models
     public class LoginViewModel
     {
         [Required]
+        [Display(Name = "User Name")]
+        public string UserName { get; set; }
+
         [Display(Name = "Email")]
         [EmailAddress]
         public string Email { get; set; }
@@ -65,6 +68,9 @@ namespace KwakkelbergBookShare.Models
     public class RegisterViewModel
     {
         [Required]
+        [Display(Name = "User Name")]
+        public string UserName { get; set; }
+        
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }
